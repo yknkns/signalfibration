@@ -1,0 +1,20 @@
+# R
+.RData
+.Rhistory
+.Rprofile
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# renv
+renv/
+
+# data
+*.h5ad
+*.raw
+*.sne
+
+# apptainer
+*.sif
