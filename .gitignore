@@ -18,5 +18,9 @@ renv/
 *.cct
 *.tsi
 
+# workflow
+runs/*
+!runs/README.md
+
 # apptainer
 *.sif
