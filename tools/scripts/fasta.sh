@@ -1,4 +1,4 @@
 #!/bin/sh
 
-URL="https://rest.uniprot.org/uniprotkb/stream?compressed=false&format=fasta&includeIsoform=true&query=(proteome:UP000005640)%20AND%20(reviewed:true)"
+URL="https://raw.githubusercontent.com/califano-lab/vespa.tutorial/main/01_import/library.fasta"
 curl -o ./tools/references/library.fasta $URL
