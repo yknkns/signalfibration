@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-NAME="cptac-s045"
+NAME="cptac-coad"
 OUTDIR="./data/$NAME"
 
 PROTEO="https://linkedomics.org/cptac-colon/Human__CPTAC_COAD__PNNL__Proteome__TMT__03_01_2017__BCM__Gene__Tumor_Normal_log2FC.cct"
