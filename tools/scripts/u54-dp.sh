@@ -8,5 +8,5 @@ URL="https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-024-47957-3/
 mkdir -p $OUTDIR
 cd $OUTDIR
 curl -o ./data.zip $URL
-unzip -o ./data.zip -d $OUTDIR
+unzip -o ./data.zip -d .
 rm -rf ./data.zip
